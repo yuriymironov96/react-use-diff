@@ -14,7 +14,7 @@ export const releaseConfig = {
       },
     ],
     '@semantic-release/changelog',
-    '@semantic-release/gitlab',
+    '@semantic-release/github',
     '@semantic-release/npm',
     [
       '@semantic-release/git',
