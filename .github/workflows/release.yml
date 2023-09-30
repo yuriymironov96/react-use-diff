@@ -17,7 +17,7 @@ jobs:
       - name: test
         run: npm run test
   release:
-    depends-on:
+    needs:
       - test
     runs-on: ubuntu-latest
     steps:
