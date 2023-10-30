@@ -19,6 +19,9 @@
   "bugs": {
     "url": "https://github.com/yuriymironov96/react-use-diff/issues"
   },
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/yuriymironov96/react-use-diff#readme",
   "devDependencies": {
     "@babel/core": "^7.23.0",
