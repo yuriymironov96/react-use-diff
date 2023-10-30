@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react';
 type Deps = unknown[];
 
 // some very important change
+// another important change
 
 export const useDiff = (deps: Deps): void => {
   const prevDepsRef = useRef<Deps>(deps);
