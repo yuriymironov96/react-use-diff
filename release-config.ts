@@ -13,7 +13,7 @@ export const releaseConfig = {
         preset: 'conventionalcommits',
       },
     ],
-    ['@semantic-release/npm', { pkgRoot: 'dist' }],
+    ['@semantic-release/npm', { pkgRoot: 'dist/' }],
     [
       '@semantic-release/git',
       {
