@@ -5,6 +5,7 @@ type Deps = unknown[];
 // some very important change
 // another important change
 // another
+// foo
 
 export const useDiff = (deps: Deps): void => {
   const prevDepsRef = useRef<Deps>(deps);
