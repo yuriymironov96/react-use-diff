@@ -13,9 +13,7 @@ export const releaseConfig = {
         preset: 'conventionalcommits',
       },
     ],
-    '@semantic-release/changelog',
-    '@semantic-release/github',
-    '@semantic-release/npm',
+    ['@semantic-release/npm', { pkgRoot: 'dist' }],
     [
       '@semantic-release/git',
       {
@@ -25,6 +23,8 @@ export const releaseConfig = {
           'chore(release): ${nextRelease.version} [skip ci]\n\n<%=nextRelease.notes.replace(/([^\\n]{100})/g, "$1\\n") %>',
       },
     ],
+    '@semantic-release/changelog',
+    '@semantic-release/github',
     [
       'semantic-release-slack-bot',
       {
